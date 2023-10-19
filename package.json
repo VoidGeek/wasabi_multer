@@ -1,0 +1,25 @@
+{
+  "name": "imageupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1475.0",
+    "b2": "^0.1.11",
+    "backbone": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^2.10.0"
+  }
+}
